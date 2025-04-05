@@ -47,7 +47,6 @@ int vec_sum_v2(int *vec, int n)
 
 int vec_sum_v3(int *vec, int n)
 {
-    // TODO: remove data dependency in unrolled loop
     unsigned int i;
     int s = 0, t1 = 0, t2 = 0, t3 = 0;
     for (i = 0; i + 3 < n; i += 4)
